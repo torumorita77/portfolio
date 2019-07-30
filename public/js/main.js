@@ -1,0 +1,43 @@
+$(function(){
+  // カテゴリーのもっとみる機能
+  $('.momo1')
+    .click(function(){
+      $('ul').removeClass('popo1');
+      $(this).css('display','none');
+    });
+  $('.momo2')
+      .click(function(){
+        $('ul').removeClass('popo2');
+        $(this).css('display','none');
+    });
+  $('.momo3')
+      .click(function(){
+        $('ul').removeClass('popo3');
+        $(this).css('display','none');
+    });
+  $('.momo4')
+      .click(function(){
+        $('ul').removeClass('popo4');
+        $(this).css('display','none');
+    });
+  $('.momo5')
+    .click(function(){
+      $('ul').removeClass('popo5');
+      $(this).css('display','none');
+    });
+  $('.momo6')
+      .click(function(){
+        $('ul').removeClass('popo6');
+        $(this).css('display','none');
+    });
+    $('.momo7')
+      .click(function(){
+        $('ul').removeClass('popo7');
+        $(this).css('display','none');
+      });
+    $('.momo8')
+        .click(function(){
+          $('ul').removeClass('popo8');
+          $(this).css('display','none');
+      });
+})
